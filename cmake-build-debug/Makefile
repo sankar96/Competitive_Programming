@@ -123,6 +123,33 @@ Competitive_Programming/fast:
 	$(MAKE) -f CMakeFiles/Competitive_Programming.dir/build.make CMakeFiles/Competitive_Programming.dir/build
 .PHONY : Competitive_Programming/fast
 
+DLineIntersection.o: DLineIntersection.cpp.o
+
+.PHONY : DLineIntersection.o
+
+# target to build an object file
+DLineIntersection.cpp.o:
+	$(MAKE) -f CMakeFiles/Competitive_Programming.dir/build.make CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o
+.PHONY : DLineIntersection.cpp.o
+
+DLineIntersection.i: DLineIntersection.cpp.i
+
+.PHONY : DLineIntersection.i
+
+# target to preprocess a source file
+DLineIntersection.cpp.i:
+	$(MAKE) -f CMakeFiles/Competitive_Programming.dir/build.make CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.i
+.PHONY : DLineIntersection.cpp.i
+
+DLineIntersection.s: DLineIntersection.cpp.s
+
+.PHONY : DLineIntersection.s
+
+# target to generate assembly for a file
+DLineIntersection.cpp.s:
+	$(MAKE) -f CMakeFiles/Competitive_Programming.dir/build.make CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.s
+.PHONY : DLineIntersection.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Competitive_Programming.dir/build.make CMakeFiles/Competitive_Programming.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test/TestingSources.o: test/TestingSources.cpp.o
+
+.PHONY : test/TestingSources.o
+
+# target to build an object file
+test/TestingSources.cpp.o:
+	$(MAKE) -f CMakeFiles/Competitive_Programming.dir/build.make CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o
+.PHONY : test/TestingSources.cpp.o
+
+test/TestingSources.i: test/TestingSources.cpp.i
+
+.PHONY : test/TestingSources.i
+
+# target to preprocess a source file
+test/TestingSources.cpp.i:
+	$(MAKE) -f CMakeFiles/Competitive_Programming.dir/build.make CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.i
+.PHONY : test/TestingSources.cpp.i
+
+test/TestingSources.s: test/TestingSources.cpp.s
+
+.PHONY : test/TestingSources.s
+
+# target to generate assembly for a file
+test/TestingSources.cpp.s:
+	$(MAKE) -f CMakeFiles/Competitive_Programming.dir/build.make CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.s
+.PHONY : test/TestingSources.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Competitive_Programming"
+	@echo "... DLineIntersection.o"
+	@echo "... DLineIntersection.i"
+	@echo "... DLineIntersection.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test/TestingSources.o"
+	@echo "... test/TestingSources.i"
+	@echo "... test/TestingSources.s"
 .PHONY : help
 
 

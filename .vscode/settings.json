@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "__hash_table": "cpp",
+        "unordered_map": "cpp",
+        "__locale": "cpp",
+        "string": "cpp",
+        "ios": "cpp",
+        "iosfwd": "cpp",
+        "algorithm": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "iostream": "cpp",
+        "functional": "cpp"
+    }
+}

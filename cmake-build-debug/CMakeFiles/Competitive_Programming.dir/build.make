@@ -81,17 +81,69 @@ CMakeFiles/Competitive_Programming.dir/main.cpp.o.provides: CMakeFiles/Competiti
 CMakeFiles/Competitive_Programming.dir/main.cpp.o.provides.build: CMakeFiles/Competitive_Programming.dir/main.cpp.o
 
 
+CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o: CMakeFiles/Competitive_Programming.dir/flags.make
+CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o: ../test/TestingSources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sankar-5526/CLionProjects/Competitive_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o -c /Users/sankar-5526/CLionProjects/Competitive_Programming/test/TestingSources.cpp
+
+CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sankar-5526/CLionProjects/Competitive_Programming/test/TestingSources.cpp > CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.i
+
+CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sankar-5526/CLionProjects/Competitive_Programming/test/TestingSources.cpp -o CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.s
+
+CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o.requires:
+
+.PHONY : CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o.requires
+
+CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o.provides: CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Competitive_Programming.dir/build.make CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o.provides.build
+.PHONY : CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o.provides
+
+CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o.provides.build: CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o
+
+
+CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o: CMakeFiles/Competitive_Programming.dir/flags.make
+CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o: ../DLineIntersection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sankar-5526/CLionProjects/Competitive_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o -c /Users/sankar-5526/CLionProjects/Competitive_Programming/DLineIntersection.cpp
+
+CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sankar-5526/CLionProjects/Competitive_Programming/DLineIntersection.cpp > CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.i
+
+CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sankar-5526/CLionProjects/Competitive_Programming/DLineIntersection.cpp -o CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.s
+
+CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o.requires:
+
+.PHONY : CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o.requires
+
+CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o.provides: CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Competitive_Programming.dir/build.make CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o.provides.build
+.PHONY : CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o.provides
+
+CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o.provides.build: CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o
+
+
 # Object files for target Competitive_Programming
 Competitive_Programming_OBJECTS = \
-"CMakeFiles/Competitive_Programming.dir/main.cpp.o"
+"CMakeFiles/Competitive_Programming.dir/main.cpp.o" \
+"CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o" \
+"CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o"
 
 # External object files for target Competitive_Programming
 Competitive_Programming_EXTERNAL_OBJECTS =
 
 Competitive_Programming: CMakeFiles/Competitive_Programming.dir/main.cpp.o
+Competitive_Programming: CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o
+Competitive_Programming: CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o
 Competitive_Programming: CMakeFiles/Competitive_Programming.dir/build.make
 Competitive_Programming: CMakeFiles/Competitive_Programming.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sankar-5526/CLionProjects/Competitive_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Competitive_Programming"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sankar-5526/CLionProjects/Competitive_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Competitive_Programming"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Competitive_Programming.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +152,8 @@ CMakeFiles/Competitive_Programming.dir/build: Competitive_Programming
 .PHONY : CMakeFiles/Competitive_Programming.dir/build
 
 CMakeFiles/Competitive_Programming.dir/requires: CMakeFiles/Competitive_Programming.dir/main.cpp.o.requires
+CMakeFiles/Competitive_Programming.dir/requires: CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o.requires
+CMakeFiles/Competitive_Programming.dir/requires: CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o.requires
 
 .PHONY : CMakeFiles/Competitive_Programming.dir/requires
 

@@ -5,8 +5,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 find_package(GTest REQUIRED)
 file(GLOB SOURCES "*.cpp")
 
-add_executable(FormulaEvaluationTestexec ${SOURCES})
+add_executable(testingsourcesexec ${SOURCES})
 
-target_link_libraries(FormulaEvaluationTestexec Evaluator GTest::GTest GTest::Main)
+target_link_libraries(testingsourcesexec Competitive_Programming GTest::GTest GTest::Main)
 
-add_test(FormulaEvaluationTest FormulaEvaluationTestexec)
+add_test(TestingSources testingsourcesexec)
+
+

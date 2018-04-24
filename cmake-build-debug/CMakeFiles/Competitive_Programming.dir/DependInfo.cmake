@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/sankar-5526/CLionProjects/Competitive_Programming/DLineIntersection.cpp" "/Users/sankar-5526/CLionProjects/Competitive_Programming/cmake-build-debug/CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o"
   "/Users/sankar-5526/CLionProjects/Competitive_Programming/main.cpp" "/Users/sankar-5526/CLionProjects/Competitive_Programming/cmake-build-debug/CMakeFiles/Competitive_Programming.dir/main.cpp.o"
+  "/Users/sankar-5526/CLionProjects/Competitive_Programming/test/TestingSources.cpp" "/Users/sankar-5526/CLionProjects/Competitive_Programming/cmake-build-debug/CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

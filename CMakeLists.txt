@@ -3,4 +3,4 @@ project(Competitive_Programming)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Competitive_Programming main.cpp)
+add_executable(Competitive_Programming main.cpp test/TestingSources.cpp DLineIntersection.cpp)

@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/sankar-5526/CLionProjects/Competitive_Programming/DLineIntersection.cpp">
+			<Option target="Competitive_Programming"/>
+		</Unit>
 		<Unit filename="/Users/sankar-5526/CLionProjects/Competitive_Programming/main.cpp">
+			<Option target="Competitive_Programming"/>
+		</Unit>
+		<Unit filename="/Users/sankar-5526/CLionProjects/Competitive_Programming/test/TestingSources.cpp">
 			<Option target="Competitive_Programming"/>
 		</Unit>
 		<Unit filename="/Users/sankar-5526/CLionProjects/Competitive_Programming/CMakeLists.txt">

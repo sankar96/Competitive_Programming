@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Competitive_Programming.dir/main.cpp.o"
+  "CMakeFiles/Competitive_Programming.dir/test/TestingSources.cpp.o"
+  "CMakeFiles/Competitive_Programming.dir/DLineIntersection.cpp.o"
   "Competitive_Programming.pdb"
   "Competitive_Programming"
 )
