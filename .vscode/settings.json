@@ -10,6 +10,7 @@
         "chrono": "cpp",
         "limits": "cpp",
         "iostream": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "stack": "cpp"
     }
 }
