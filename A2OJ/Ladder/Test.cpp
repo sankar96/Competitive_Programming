@@ -1,4 +1,4 @@
-#include "gmpfrxx/gmpfrxx.h"
+#include "gmpfrxx.h"
 #include <gmp.h>
 #include <gmpxx.h>
 #include <iostream>
@@ -24,7 +24,6 @@ int main () {
     mpz_set_str (b, "sankaras", 10);
 
     mpfr_class x ("45.6"), y ("57.67");
-
     elements.push (x);
     elements.push (y);
 
