@@ -13,6 +13,7 @@ int main () {
         cin >> st;
         x.set_str (st, 10);
         values.push (x);
+        
     }
 
     while (!values.empty ()) {
@@ -22,4 +23,4 @@ int main () {
 
 
     return 0;
-}
+}   
