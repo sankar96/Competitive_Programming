@@ -32,7 +32,7 @@ int main () {
 
     Obj b (false, 3);
 
-    MpfrObj m mpfr_init (x);
+    mpfr_init (x);
     mpfr_set_str (x, "56", 10, MPFR_RNDZ);
     Obj c (x, 2);
 

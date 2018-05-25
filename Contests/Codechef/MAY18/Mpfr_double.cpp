@@ -34,13 +34,13 @@ int main () {
     mpfr_d ();
     end = std::chrono::system_clock::now ();
 
-    auto t1 = std::chrono::duration_cast<std::chrono::nanoseconds> (end - start);
+    auto t1 = std::chrono::duration_cast<std::chrono::milliseconds> (end - start);
 
     cout << t1.count () << endl;
     start = std::chrono::system_clock::now ();
     // std::cout << "f(42) = " << fibonacci (42) << '\n';
     mpfr_string ();
     end = std::chrono::system_clock::now ();
-    t1 = std::chrono::duration_cast<std::chrono::nanoseconds> (end - start);
+    t1 = std::chrono::duration_cast<std::chrono::milliseconds> (end - start);
     cout << t1.count () << endl;
 }
