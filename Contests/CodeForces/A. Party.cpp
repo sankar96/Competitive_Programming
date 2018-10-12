@@ -1,3 +1,4 @@
+
 /****
  *
  * Description : https://codeforces.com/problemset/problem/115/A
@@ -19,46 +20,44 @@ struct Node {
     int val;
 };
 
-int main () {
+int main() {
     int n;
     cin >> n;
     unordered_map<int, unordered_set<int>> graph;
 
     vector<int> parents;
-    for (int i = 1; i <= n; i++) {
+    for(int i = 1; i <= n; i++) {
         int parent;
         cin >> parent;
-        if (parent != -1) {
-            graph[parent].insert (i);
+        if(parent != -1) {
+            graph[parent].insert(i);
         } else
-            parents.push_back (i);
+            parents.push_back(i);
     }
 
     int max_val = INT_MIN;
-    for (auto& it : parents) {
+    for(auto& it : parents) {
         queue<Node> bfs;
-        Node node;
+        Node node{};
         node.height = 1;
         node.val = it;
-        bfs.push (node);
+        bfs.push(node);
 
         int height = 0;
-        while (!bfs.empty ()) {
-            Node front = bfs.front ();
-            bfs.pop ();
+        while(!bfs.empty()) {
+            Node front = bfs.front();
+            bfs.pop();
 
-            cout << node.val << " " << node.height << endl;
             height = front.height;
-            for (auto& it : graph[front.val]) {
-                Node temp;
+            for(auto& it : graph[front.val]) {
+                Node temp{};
                 temp.val = it;
                 temp.height = front.height + 1;
-                bfs.push (temp);
+                bfs.push(temp);
             }
         }
 
-        cout << height << endl;
-        max_val = max (max_val, height);
+        max_val = max(max_val, height);
     }
 
     cout << max_val;
